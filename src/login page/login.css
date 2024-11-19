@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#bgimg {
+  width: 100%;
+  height: 100vh;
+  background-color:#66A5AD;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 510px;
+  padding-top: 100px;
+}
+
+#box{
+    width: 300px;
+    height: 400px;
+    background-color:#C4DFE6;
+    color: rgb(237, 4, 4);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 1px rgb(94, 93, 93);
+    
+}
+#input1{
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+#btngroup{
+  display: flex;
+  justify-content: space-between;
+}
+#btn{
+  width: 70px;
+  background-color: rgb(208, 202, 203);
+  border-radius: 10px;
+  height: 25px;
+  align-items: center;
+}
+
+#parent1{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightslategray;
+  padding: 10px;
+}
+#child1{
+  width: 70px;
+  background-color: #C4DFE6;
+  border-radius: 10px;
+  color: #66A5AD;
+}
+#bgimg1{
+  background-color: #C4DFE6;
+  
+}
+#frm{
+  width: 400px;
+  background-color: #66A5AD;
+  color: #C4DFE6;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #474747;
+  margin-left: 400px;
+}
+#formcontrol{
+  
+  width: 250px;
+  padding: 10px;
+  
+  /* color: #66A5AD; */
+  /* margin-left: 450px; */
+  
+}
+#btn1{
+  width: 70px;
+  background-color: #C4DFE6;
+  border-radius: 10px;
+  color: #66A5AD;
+}
